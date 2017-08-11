@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HelpViewController">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="204" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" scrollerKnobStyle="dark" translatesAutoresizingMaskIntoConstraints="NO" id="PJe-Z7-QfK">
+                    <rect key="frame" x="0.0" y="0.0" width="204" height="272"/>
+                    <clipView key="contentView" id="sJM-0A-Fnv">
+                        <rect key="frame" x="0.0" y="0.0" width="189" height="272"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView editable="NO" importsGraphics="NO" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="JdO-vw-tiz">
+                                <rect key="frame" x="0.0" y="0.0" width="189" height="272"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="minSize" width="189" height="272"/>
+                                <size key="maxSize" width="463" height="10000000"/>
+                                <attributedString key="textStorage">
+                                    <fragment>
+                                        <string key="content">    App Name. The name of the app displayed during download and installation.
+
+    IPA URL. A fully qualified HTTPS URL for the iOS App file.
+
+    Display Image URL. A fully qualified HTTPS URL for an app icon that is displayed during download and installation. The image file must be 57 x 57 pixels and in PNG format.
+
+    Full Size Image URL. A fully qualified HTTPS URL for a larger image that is displayed in iTunes. The image file must be 512 x 512 pixels and in PNG format.</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="9Mn-SU-KiQ">
+                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="KB5-pR-hED">
+                        <rect key="frame" x="189" y="0.0" width="15" height="272"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="PJe-Z7-QfK" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="OKQ-8R-ow4"/>
+                <constraint firstItem="PJe-Z7-QfK" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="Usd-Bq-xS5"/>
+                <constraint firstAttribute="trailing" secondItem="PJe-Z7-QfK" secondAttribute="trailing" id="VwA-tc-SlZ"/>
+                <constraint firstAttribute="bottom" secondItem="PJe-Z7-QfK" secondAttribute="bottom" id="q2i-2F-RCh"/>
+            </constraints>
+            <point key="canvasLocation" x="-6" y="169"/>
+        </customView>
+    </objects>
+</document>

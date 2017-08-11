@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SmartOTA
+
+  Created by Jakey on 2017/8/8.
+  Copyright © 2017年 Jakey. All rights reserved.
+*/
+"install" = "install";
+"click install will auto download and install app,please back device destop" = "click install will auto download and install app,please back device destop";
+
+"【wechat scan qrcode cant install directly】，please click top right corner “open in Safari”" = "【wechat scan qrcode cant install directly】，please click top right corner “open in Safari”";

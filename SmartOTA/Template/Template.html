@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>{{name}}-在线安装</title>
+    <style type="text/css">
+        body {
+            font-size: 15px;
+            margin: 0px;
+            padding: 0px;
+            background-color: #f0eff4;
+        }
+        .table {
+            display: table;
+         }
+        .row {
+             display: table-row;
+            vertical-align: middle;/*该属性是定义行内元素垂直对齐的，只有行内元素会生效。在表单元格中，这个属性会设置单元格框中的单元格内容的对齐方式。*/
+
+         }
+         .cell {
+            display: table-cell;
+             vertical-align: middle;/*该属性是定义行内元素垂直对齐的，只有行内元素会生效。在表单元格中，这个属性会设置单元格框中的单元格内容的对齐方式。*/
+        }
+
+        a {
+            color: #0077FF;
+            text-decoration: none;
+        }
+
+        ul {
+            padding: 0px;
+        }
+
+        li {
+            background-color: white;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            border: 1px solid lightgray;
+            height:25vmin;
+        }
+        .info {
+            
+            padding-top:4vmin;
+            padding-bottom:4vmin;
+            height:17vmin;
+            float:left;
+          /*  width: 100%;*/
+        }
+        .linkdiv{
+            float:right;
+            height:100%;
+        }
+        .name {
+            line-height: 2;
+            font-size: 12pt;
+        }
+        .desc {
+            color: gray;
+            line-height: 2;
+            font-size: 8pt;
+        }
+        .link {
+            float:right;
+            font-size: 12pt;
+            border: 1px solid #00B7FF;
+            border-radius: 10%;
+            padding: 2px 8px;
+            margin-right: 5px;
+        }
+
+        .icon {
+            float:left;
+            height:21vmin;
+            width:21vmin;
+            border-radius: 22%;
+            border: 1px solid lightgray;
+            margin: 2vmin;
+        }
+    </style>
+     
+</head>
+
+<body>
+    <h3>{{tip}}</h3>
+    <ul>
+        <li>
+            <div style="width:100%;height:100%;">
+                <img src="{{iconString}}" class="icon"/>
+                <div  class="info table">
+                    <div class="row"><span class="name cell">{{name}}</span></div>
+                    <div class="row"><span class="desc cell">{{version}}</span></div>
+                    <div class="row"><div class="desc cell">{{description}}</div></div>
+                </div>
+                <div class="linkdiv table">
+                    <div class="cell"><a href="javascript:;" downloadURL="itms-services://?action=download-manifest&url={{plist}}" class="link" id="urla">{{download}}</a></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</body>
+ <script type="text/javascript">
+        // var url = location.href;
+        // document.getElementById('urla').addEventListener('click', function(e) {
+        //      e.preventDefault();
+        //      if(confirm("点击安装后会自动下载App, 请返回桌面查看")){
+        //         window.location.href = this.getAttribute("downloadURL");
+        //     }
+        // }, false);
+  
+    var timestamp = (new Date()).valueOf();
+    var lis = document.getElementsByTagName("li");
+    for(var i=0; i<lis.length; i++){
+            var aa = lis[i].getElementsByTagName("a")[0];
+            aa.onclick = function(){
+                if(confirm("{{installtip}}")){
+                  window.location.href = this.getAttribute("downloadURL")+"?"+timestamp;
+<!--                  alert(this.getAttribute("downloadURL"));-->
+            }
+　　　 　}
+    }
+
+    </script>
+</html>

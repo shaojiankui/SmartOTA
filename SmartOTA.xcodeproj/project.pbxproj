@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82997971F3D5DF100065C35 /* NSString+JKHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = B82997961F3D5DF100065C35 /* NSString+JKHTML.m */; };
+		B829979A1F3D5E0C00065C35 /* NSData+JKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B82997991F3D5E0B00065C35 /* NSData+JKBase64.m */; };
+		B829979D1F3D5E1C00065C35 /* NSString+JKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B829979C1F3D5E1C00065C35 /* NSString+JKBase64.m */; };
+		B862984F1F346E2E000398B8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862984E1F346E2E000398B8 /* WebKit.framework */; };
+		B86298581F34762A000398B8 /* DragableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B86298551F34762A000398B8 /* DragableView.m */; };
+		B86298591F34762A000398B8 /* DragableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B86298571F34762A000398B8 /* DragableWindow.m */; };
+		B8815B101F3409E80020C9D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8815B0F1F3409E80020C9D7 /* AppDelegate.m */; };
+		B8815B131F3409E80020C9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8815B121F3409E80020C9D7 /* main.m */; };
+		B8815B151F3409E80020C9D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8815B141F3409E80020C9D7 /* Assets.xcassets */; };
+		B8815B181F3409E80020C9D7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8815B161F3409E80020C9D7 /* MainMenu.xib */; };
+		B8BA5C401F395F43009D9084 /* HelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BA5C3E1F395F43009D9084 /* HelpWindowController.m */; };
+		B8BA5C411F395F43009D9084 /* HelpWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BA5C3F1F395F43009D9084 /* HelpWindowController.xib */; };
+		B8BA5C451F39684D009D9084 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BA5C431F39684D009D9084 /* HelpViewController.m */; };
+		B8BA5C461F39684D009D9084 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BA5C441F39684D009D9084 /* HelpViewController.xib */; };
+		B8BA5C491F397DE0009D9084 /* DragableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BA5C481F397DE0009D9084 /* DragableButton.m */; };
+		B8BA5C4C1F398DE5009D9084 /* DragableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BA5C4B1F398DE5009D9084 /* DragableTextField.m */; };
+		B8BA5C521F39A441009D9084 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8BA5C541F39A441009D9084 /* Localizable.strings */; };
+		B8BA5C591F39B2DC009D9084 /* Template.mime in Resources */ = {isa = PBXBuildFile; fileRef = B8BA5C581F39B2DC009D9084 /* Template.mime */; };
+		B8D227E61F37F4EE00422DD8 /* BRDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D227E51F37F4EE00422DD8 /* BRDrawer.m */; };
+		B8D227F01F38160A00422DD8 /* Template.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8D227EF1F38160A00422DD8 /* Template.plist */; };
+		B8D227F21F38162C00422DD8 /* Template.html in Resources */ = {isa = PBXBuildFile; fileRef = B8D227F11F38162C00422DD8 /* Template.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B82997951F3D5DF100065C35 /* NSString+JKHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKHTML.h"; sourceTree = "<group>"; };
+		B82997961F3D5DF100065C35 /* NSString+JKHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKHTML.m"; sourceTree = "<group>"; };
+		B82997981F3D5E0B00065C35 /* NSData+JKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKBase64.h"; sourceTree = "<group>"; };
+		B82997991F3D5E0B00065C35 /* NSData+JKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKBase64.m"; sourceTree = "<group>"; };
+		B829979B1F3D5E1C00065C35 /* NSString+JKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKBase64.h"; sourceTree = "<group>"; };
+		B829979C1F3D5E1C00065C35 /* NSString+JKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKBase64.m"; sourceTree = "<group>"; };
+		B862984E1F346E2E000398B8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B86298541F34762A000398B8 /* DragableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableView.h; sourceTree = "<group>"; };
+		B86298551F34762A000398B8 /* DragableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableView.m; sourceTree = "<group>"; };
+		B86298561F34762A000398B8 /* DragableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableWindow.h; sourceTree = "<group>"; };
+		B86298571F34762A000398B8 /* DragableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableWindow.m; sourceTree = "<group>"; };
+		B8815B0B1F3409E80020C9D7 /* SmartOTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartOTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8815B0E1F3409E80020C9D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8815B0F1F3409E80020C9D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8815B121F3409E80020C9D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8815B141F3409E80020C9D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8815B171F3409E80020C9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B8815B191F3409E80020C9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8BA5C3D1F395F43009D9084 /* HelpWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpWindowController.h; sourceTree = "<group>"; };
+		B8BA5C3E1F395F43009D9084 /* HelpWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpWindowController.m; sourceTree = "<group>"; };
+		B8BA5C3F1F395F43009D9084 /* HelpWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpWindowController.xib; sourceTree = "<group>"; };
+		B8BA5C421F39684D009D9084 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		B8BA5C431F39684D009D9084 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		B8BA5C441F39684D009D9084 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		B8BA5C471F397DE0009D9084 /* DragableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableButton.h; sourceTree = "<group>"; };
+		B8BA5C481F397DE0009D9084 /* DragableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableButton.m; sourceTree = "<group>"; };
+		B8BA5C4A1F398DE5009D9084 /* DragableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableTextField.h; sourceTree = "<group>"; };
+		B8BA5C4B1F398DE5009D9084 /* DragableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableTextField.m; sourceTree = "<group>"; };
+		B8BA5C4D1F399F3E009D9084 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		B8BA5C531F39A441009D9084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B8BA5C551F39A444009D9084 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B8BA5C561F39A5F7009D9084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		B8BA5C571F39A610009D9084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B8BA5C581F39B2DC009D9084 /* Template.mime */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Template.mime; sourceTree = "<group>"; };
+		B8D227E41F37F4EE00422DD8 /* BRDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDrawer.h; sourceTree = "<group>"; };
+		B8D227E51F37F4EE00422DD8 /* BRDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDrawer.m; sourceTree = "<group>"; };
+		B8D227EF1F38160A00422DD8 /* Template.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Template.plist; sourceTree = "<group>"; };
+		B8D227F11F38162C00422DD8 /* Template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Template.html; sourceTree = "<group>"; };
+		B8D227F61F385C2700422DD8 /* SmartOTA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartOTA.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8815B081F3409E80020C9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862984F1F346E2E000398B8 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B82997941F3D5DF100065C35 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B829979B1F3D5E1C00065C35 /* NSString+JKBase64.h */,
+				B829979C1F3D5E1C00065C35 /* NSString+JKBase64.m */,
+				B82997981F3D5E0B00065C35 /* NSData+JKBase64.h */,
+				B82997991F3D5E0B00065C35 /* NSData+JKBase64.m */,
+				B82997951F3D5DF100065C35 /* NSString+JKHTML.h */,
+				B82997961F3D5DF100065C35 /* NSString+JKHTML.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B862984D1F346E2D000398B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B862984E1F346E2E000398B8 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86298531F34762A000398B8 /* Dragable */ = {
+			isa = PBXGroup;
+			children = (
+				B86298541F34762A000398B8 /* DragableView.h */,
+				B86298551F34762A000398B8 /* DragableView.m */,
+				B86298561F34762A000398B8 /* DragableWindow.h */,
+				B86298571F34762A000398B8 /* DragableWindow.m */,
+				B8BA5C471F397DE0009D9084 /* DragableButton.h */,
+				B8BA5C481F397DE0009D9084 /* DragableButton.m */,
+				B8BA5C4A1F398DE5009D9084 /* DragableTextField.h */,
+				B8BA5C4B1F398DE5009D9084 /* DragableTextField.m */,
+			);
+			path = Dragable;
+			sourceTree = "<group>";
+		};
+		B8815B021F3409E80020C9D7 = {
+			isa = PBXGroup;
+			children = (
+				B8815B0D1F3409E80020C9D7 /* SmartOTA */,
+				B8815B0C1F3409E80020C9D7 /* Products */,
+				B862984D1F346E2D000398B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8815B0C1F3409E80020C9D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8815B0B1F3409E80020C9D7 /* SmartOTA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8815B0D1F3409E80020C9D7 /* SmartOTA */ = {
+			isa = PBXGroup;
+			children = (
+				B8D227F61F385C2700422DD8 /* SmartOTA.entitlements */,
+				B82997941F3D5DF100065C35 /* Category */,
+				B8BA5C321F3959C0009D9084 /* Controller */,
+				B8D227EE1F3815F600422DD8 /* Template */,
+				B8D227E31F37F4EE00422DD8 /* BRDrawer */,
+				B86298531F34762A000398B8 /* Dragable */,
+				B8815B0E1F3409E80020C9D7 /* AppDelegate.h */,
+				B8815B0F1F3409E80020C9D7 /* AppDelegate.m */,
+				B8815B141F3409E80020C9D7 /* Assets.xcassets */,
+				B8815B161F3409E80020C9D7 /* MainMenu.xib */,
+				B8815B191F3409E80020C9D7 /* Info.plist */,
+				B8BA5C541F39A441009D9084 /* Localizable.strings */,
+				B8815B111F3409E80020C9D7 /* Supporting Files */,
+			);
+			path = SmartOTA;
+			sourceTree = "<group>";
+		};
+		B8815B111F3409E80020C9D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8815B121F3409E80020C9D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8BA5C321F3959C0009D9084 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8BA5C3D1F395F43009D9084 /* HelpWindowController.h */,
+				B8BA5C3E1F395F43009D9084 /* HelpWindowController.m */,
+				B8BA5C3F1F395F43009D9084 /* HelpWindowController.xib */,
+				B8BA5C421F39684D009D9084 /* HelpViewController.h */,
+				B8BA5C431F39684D009D9084 /* HelpViewController.m */,
+				B8BA5C441F39684D009D9084 /* HelpViewController.xib */,
+			);
+			name = Controller;
+			path = Dragable/Controller;
+			sourceTree = "<group>";
+		};
+		B8D227E31F37F4EE00422DD8 /* BRDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				B8D227E41F37F4EE00422DD8 /* BRDrawer.h */,
+				B8D227E51F37F4EE00422DD8 /* BRDrawer.m */,
+			);
+			path = BRDrawer;
+			sourceTree = "<group>";
+		};
+		B8D227EE1F3815F600422DD8 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				B8D227EF1F38160A00422DD8 /* Template.plist */,
+				B8D227F11F38162C00422DD8 /* Template.html */,
+				B8BA5C581F39B2DC009D9084 /* Template.mime */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8815B0A1F3409E80020C9D7 /* SmartOTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8815B1C1F3409E80020C9D7 /* Build configuration list for PBXNativeTarget "SmartOTA" */;
+			buildPhases = (
+				B8815B071F3409E80020C9D7 /* Sources */,
+				B8815B081F3409E80020C9D7 /* Frameworks */,
+				B8815B091F3409E80020C9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartOTA;
+			productName = SmartOTA;
+			productReference = B8815B0B1F3409E80020C9D7 /* SmartOTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8815B031F3409E80020C9D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jakey;
+				TargetAttributes = {
+					B8815B0A1F3409E80020C9D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TB56TD97WJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B8815B061F3409E80020C9D7 /* Build configuration list for PBXProject "SmartOTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = B8815B021F3409E80020C9D7;
+			productRefGroup = B8815B0C1F3409E80020C9D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8815B0A1F3409E80020C9D7 /* SmartOTA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8815B091F3409E80020C9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D227F21F38162C00422DD8 /* Template.html in Resources */,
+				B8D227F01F38160A00422DD8 /* Template.plist in Resources */,
+				B8815B151F3409E80020C9D7 /* Assets.xcassets in Resources */,
+				B8BA5C521F39A441009D9084 /* Localizable.strings in Resources */,
+				B8815B181F3409E80020C9D7 /* MainMenu.xib in Resources */,
+				B8BA5C411F395F43009D9084 /* HelpWindowController.xib in Resources */,
+				B8BA5C461F39684D009D9084 /* HelpViewController.xib in Resources */,
+				B8BA5C591F39B2DC009D9084 /* Template.mime in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8815B071F3409E80020C9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86298591F34762A000398B8 /* DragableWindow.m in Sources */,
+				B8BA5C4C1F398DE5009D9084 /* DragableTextField.m in Sources */,
+				B8815B131F3409E80020C9D7 /* main.m in Sources */,
+				B8D227E61F37F4EE00422DD8 /* BRDrawer.m in Sources */,
+				B829979A1F3D5E0C00065C35 /* NSData+JKBase64.m in Sources */,
+				B8BA5C401F395F43009D9084 /* HelpWindowController.m in Sources */,
+				B86298581F34762A000398B8 /* DragableView.m in Sources */,
+				B829979D1F3D5E1C00065C35 /* NSString+JKBase64.m in Sources */,
+				B8815B101F3409E80020C9D7 /* AppDelegate.m in Sources */,
+				B8BA5C451F39684D009D9084 /* HelpViewController.m in Sources */,
+				B8BA5C491F397DE0009D9084 /* DragableButton.m in Sources */,
+				B82997971F3D5DF100065C35 /* NSString+JKHTML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8815B161F3409E80020C9D7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8815B171F3409E80020C9D7 /* Base */,
+				B8BA5C4D1F399F3E009D9084 /* zh-Hans */,
+				B8BA5C561F39A5F7009D9084 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B8BA5C541F39A441009D9084 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8BA5C531F39A441009D9084 /* Base */,
+				B8BA5C551F39A444009D9084 /* zh-Hans */,
+				B8BA5C571F39A610009D9084 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8815B1A1F3409E80020C9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B8815B1B1F3409E80020C9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B8815B1D1F3409E80020C9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartOTA/SmartOTA.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SmartOTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.SmartOTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		B8815B1E1F3409E80020C9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartOTA/SmartOTA.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SmartOTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.SmartOTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8815B061F3409E80020C9D7 /* Build configuration list for PBXProject "SmartOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8815B1A1F3409E80020C9D7 /* Debug */,
+				B8815B1B1F3409E80020C9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8815B1C1F3409E80020C9D7 /* Build configuration list for PBXNativeTarget "SmartOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8815B1D1F3409E80020C9D7 /* Debug */,
+				B8815B1E1F3409E80020C9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8815B031F3409E80020C9D7 /* Project object */;
+}

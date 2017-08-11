@@ -1,0 +1,171 @@
+
+/* Class = "NSTextField"; ibShadowedToolTip = "app short version string"; ObjectID = "0X0-QG-Z79"; */
+"0X0-QG-Z79.ibShadowedToolTip" = "app short version string";
+
+/* Class = "NSButtonCell"; title = "Preview"; ObjectID = "17m-c9-jLP"; */
+"17m-c9-jLP.title" = "Preview";
+
+/* Class = "NSMenuItem"; title = "SmartOTA"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "SmartOTA";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "The description of the app displayed in html"; ObjectID = "2k6-01-Kdb"; */
+"2k6-01-Kdb.ibShadowedToolTip" = "The description of the app displayed in html";
+
+/* Class = "NSMenuItem"; title = "Quit SmartOTA"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit SmartOTA";
+
+/* Class = "NSMenuItem"; title = "About SmartOTA"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About SmartOTA";
+
+/* Class = "NSTextFieldCell"; title = "*"; ObjectID = "7aZ-tb-MuA"; */
+"7aZ-tb-MuA.title" = "*";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Preview Pist Raw"; ObjectID = "AE1-HN-gRm"; */
+"AE1-HN-gRm.ibShadowedToolTip" = "Preview Pist Raw";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Preferences…";
+
+/* Class = "NSBox"; title = "Distribution Info"; ObjectID = "CEW-wF-oOg"; */
+"CEW-wF-oOg.title" = "Distribution Info";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Preview html5 in browser"; ObjectID = "Dsy-In-jez"; */
+"Dsy-In-jez.ibShadowedToolTip" = "Preview html5 in browser";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "ipa download url"; ObjectID = "EaQ-Cx-vpc"; */
+"EaQ-Cx-vpc.ibShadowedToolTip" = "ipa download url";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "SmartOTA Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "SmartOTA Help";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "Hm7-Ki-a8u"; */
+"Hm7-Ki-a8u.title" = "Version";
+
+/* Class = "NSButton"; ibShadowedToolTip = "drag image here"; ObjectID = "JN9-Xj-1O5"; */
+"JN9-Xj-1O5.ibShadowedToolTip" = "drag image here";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "Bring All to Front";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "A fully qualified HTTPS URL for the iOS App file"; ObjectID = "LyB-lO-gNU"; */
+"LyB-lO-gNU.ibShadowedToolTip" = "A fully qualified HTTPS URL for the iOS App file";
+
+/* Class = "NSTextFieldCell"; title = "App Name"; ObjectID = "MU8-WO-uJc"; */
+"MU8-WO-uJc.title" = "App Name";
+
+/* Class = "NSTextFieldCell"; title = "display-image"; ObjectID = "MUm-Pz-jiT"; */
+"MUm-Pz-jiT.title" = "display-image";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Services";
+
+/* Class = "NSTextFieldCell"; title = "Bundle ID"; ObjectID = "O5w-tJ-UEv"; */
+"O5w-tJ-UEv.title" = "Bundle ID";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "Minimize";
+
+/* Class = "NSMenuItem"; title = "Hide SmartOTA"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide SmartOTA";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "app bundle identifier"; ObjectID = "PH0-FM-W9W"; */
+"PH0-FM-W9W.ibShadowedToolTip" = "app bundle identifier";
+
+/* Class = "NSTextFieldCell"; title = "Manifest Plist URL"; ObjectID = "QqG-nk-EVu"; */
+"QqG-nk-EVu.title" = "Manifest Plist URL";
+
+/* Class = "NSWindow"; title = "SmartOTA"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "SmartOTA";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "Zoom";
+
+/* Class = "NSButtonCell"; title = " \nfull-size-image \n512*512\n"; ObjectID = "RyC-kr-YNR"; */
+"RyC-kr-YNR.title" = " \nfull-size-image \n512*512\n";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "full-size-image"; ObjectID = "UWY-Xs-mLF"; */
+"UWY-Xs-mLF.title" = "full-size-image";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSBox"; title = "MetaData"; ObjectID = "Vyj-5p-oiq"; */
+"Vyj-5p-oiq.title" = "MetaData";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Generate plist and html for OTA"; ObjectID = "ZVk-zm-5CO"; */
+"ZVk-zm-5CO.ibShadowedToolTip" = "Generate plist and html for OTA";
+
+/* Class = "NSButton"; ibShadowedToolTip = "drag image here"; ObjectID = "aBB-Ko-4JE"; */
+"aBB-Ko-4JE.ibShadowedToolTip" = "drag image here";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Kind"; ObjectID = "aaJ-Pw-k9s"; */
+"aaJ-Pw-k9s.title" = "Kind";
+
+/* Class = "NSTextFieldCell"; title = "H5 URL"; ObjectID = "b6a-c6-8Hq"; */
+"b6a-c6-8Hq.title" = "H5 URL";
+
+/* Class = "NSButtonCell"; title = "Preview"; ObjectID = "eoI-B4-lff"; */
+"eoI-B4-lff.title" = "Preview";
+
+/* Class = "NSTextFieldCell"; title = "*"; ObjectID = "ftJ-RF-YZ5"; */
+"ftJ-RF-YZ5.title" = "*";
+
+/* Class = "NSBox"; title = "Server Info"; ObjectID = "gB8-QK-Xc6"; */
+"gB8-QK-Xc6.title" = "Server Info";
+
+/* Class = "NSButtonCell"; title = "Make"; ObjectID = "ho4-8X-tat"; */
+"ho4-8X-tat.title" = "Make";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "jaJ-Po-O9W"; */
+"jaJ-Po-O9W.title" = "Description";
+
+/* Class = "NSTextFieldCell"; title = "*"; ObjectID = "mXp-qL-UYP"; */
+"mXp-qL-UYP.title" = "*";
+
+/* Class = "NSTextFieldCell"; title = "Server"; ObjectID = "oD3-2u-ATH"; */
+"oD3-2u-ATH.title" = "Server";
+
+/* Class = "NSTextFieldCell"; title = "IPA URL"; ObjectID = "oTZ-WG-ukb"; */
+"oTZ-WG-ukb.title" = "IPA URL";
+
+/* Class = "NSButtonCell"; title = "display-image \n57*57"; ObjectID = "qoU-ca-ml8"; */
+"qoU-ca-ml8.title" = "display-image \n57*57";
+
+/* Class = "NSButtonCell"; title = "select ipa"; ObjectID = "qrE-g8-Pe3"; */
+"qrE-g8-Pe3.title" = "select ipa";
+
+/* Class = "NSTextFieldCell"; title = "software"; ObjectID = "s3U-Nq-6dO"; */
+"s3U-Nq-6dO.title" = "software";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "The name of the app displayed during download and installation"; ObjectID = "tVg-hH-LIL"; */
+"tVg-hH-LIL.ibShadowedToolTip" = "The name of the app displayed during download and installation";
+
+/* Class = "NSMenu"; title = "SmartOTA"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "SmartOTA";
+
+/* Class = "NSBox"; title = "Assets"; ObjectID = "vxt-h9-asB"; */
+"vxt-h9-asB.title" = "Assets";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Help";
+
+/* Class = "NSTextFieldCell"; title = "*"; ObjectID = "zh0-b2-gqF"; */
+"zh0-b2-gqF.title" = "*";
