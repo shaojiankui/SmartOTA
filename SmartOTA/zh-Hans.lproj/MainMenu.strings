@@ -1,12 +1,33 @@
 
+/* Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "01o-Kh-Mul"; */
+"01o-Kh-Mul.title" = "立刻检查文档";
+
 /* Class = "NSTextField"; ibShadowedToolTip = "app short version string"; ObjectID = "0X0-QG-Z79"; */
 "0X0-QG-Z79.ibShadowedToolTip" = "app short version string";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "0n7-pp-tgj"; */
+"0n7-pp-tgj.title" = "语音";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The IPA file url of the app"; ObjectID = "11p-oI-NBb"; */
+"11p-oI-NBb.placeholderString" = "The IPA file url of the app";
 
 /* Class = "NSButtonCell"; title = "Preview"; ObjectID = "17m-c9-jLP"; */
 "17m-c9-jLP.title" = "Preview";
 
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "1N9-Lj-jvN"; */
+"1N9-Lj-jvN.title" = "Spelling";
+
 /* Class = "NSMenuItem"; title = "SmartOTA"; ObjectID = "1Xt-HY-uBw"; */
 "1Xt-HY-uBw.title" = "SmartOTA";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "1n9-zf-Ca3"; */
+"1n9-zf-Ca3.title" = "查找…";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The image for dowloading display"; ObjectID = "1w0-vp-JvI"; */
+"1w0-vp-JvI.placeholderString" = "The image for dowloading display";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The short version  of the app"; ObjectID = "2Ob-oS-5Pw"; */
+"2Ob-oS-5Pw.placeholderString" = "The short version  of the app";
 
 /* Class = "NSTextField"; ibShadowedToolTip = "The description of the app displayed in html"; ObjectID = "2k6-01-Kdb"; */
 "2k6-01-Kdb.ibShadowedToolTip" = "The description of the app displayed in html";
@@ -17,8 +38,23 @@
 /* Class = "NSMenuItem"; title = "About SmartOTA"; ObjectID = "5kV-Vb-QxS"; */
 "5kV-Vb-QxS.title" = "关于 SmartOTA";
 
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "6m9-iC-wr9"; */
+"6m9-iC-wr9.title" = "编辑";
+
 /* Class = "NSTextFieldCell"; title = "*"; ObjectID = "7aZ-tb-MuA"; */
 "7aZ-tb-MuA.title" = "*";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "8CZ-h4-gd3"; */
+"8CZ-h4-gd3.title" = "语音";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "8Ci-UG-Mjg"; */
+"8Ci-UG-Mjg.title" = "粘贴";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "8ch-IA-jYo"; */
+"8ch-IA-jYo.title" = "查找";
+
+/* Class = "NSMenu"; title = "Substitutions"; ObjectID = "9Wq-t7-3aa"; */
+"9Wq-t7-3aa.title" = "替换";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Preview Pist Raw"; ObjectID = "AE1-HN-gRm"; */
 "AE1-HN-gRm.ibShadowedToolTip" = "Preview Pist Raw";
@@ -29,11 +65,26 @@
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
 "BOF-NM-1cW.title" = "偏好设置…";
 
+/* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "BhA-67-W2e"; */
+"BhA-67-W2e.title" = "自动纠正拼写";
+
+/* Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "C7J-WV-g7v"; */
+"C7J-WV-g7v.title" = "显示替换";
+
 /* Class = "NSBox"; title = "Distribution Info"; ObjectID = "CEW-wF-oOg"; */
 "CEW-wF-oOg.title" = "Distribution Info";
 
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "CbF-z3-r4S"; */
+"CbF-z3-r4S.title" = "查找下一个";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The name of the app"; ObjectID = "Cnv-QV-hnF"; */
+"Cnv-QV-hnF.placeholderString" = "The name of the app";
+
 /* Class = "NSButton"; ibShadowedToolTip = "Preview html5 in browser"; ObjectID = "Dsy-In-jez"; */
 "Dsy-In-jez.ibShadowedToolTip" = "Preview html5 in browser";
+
+/* Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "E2R-l3-ikL"; */
+"E2R-l3-ikL.title" = "转换为小写";
 
 /* Class = "NSTextField"; ibShadowedToolTip = "ipa download url"; ObjectID = "EaQ-Cx-vpc"; */
 "EaQ-Cx-vpc.ibShadowedToolTip" = "ipa download url";
@@ -47,8 +98,17 @@
 /* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "Hm7-Ki-a8u"; */
 "Hm7-Ki-a8u.title" = "Version";
 
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "HsP-P3-Jzu"; */
+"HsP-P3-Jzu.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "Ihf-Ao-fzZ"; */
+"Ihf-Ao-fzZ.title" = "显示拼写与语法";
+
 /* Class = "NSButton"; ibShadowedToolTip = "drag image here"; ObjectID = "JN9-Xj-1O5"; */
 "JN9-Xj-1O5.ibShadowedToolTip" = "drag image here";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "JZG-hz-F47"; */
+"JZG-hz-F47.title" = "查找上一个";
 
 /* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
 "Kd2-mp-pUS.title" = "显示所有";
@@ -59,11 +119,20 @@
 /* Class = "NSTextField"; ibShadowedToolTip = "A fully qualified HTTPS URL for the iOS App file"; ObjectID = "LyB-lO-gNU"; */
 "LyB-lO-gNU.ibShadowedToolTip" = "A fully qualified HTTPS URL for the iOS App file";
 
+/* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "MDc-we-KwF"; */
+"MDc-we-KwF.title" = "智能拷贝/粘贴";
+
 /* Class = "NSTextFieldCell"; title = "App Name"; ObjectID = "MU8-WO-uJc"; */
 "MU8-WO-uJc.title" = "App Name";
 
 /* Class = "NSTextFieldCell"; title = "display-image"; ObjectID = "MUm-Pz-jiT"; */
 "MUm-Pz-jiT.title" = "display-image";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "Mfd-Ft-FUD"; */
+"Mfd-Ft-FUD.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "Mjw-pK-to7"; */
+"Mjw-pK-to7.title" = "开始朗读";
 
 /* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
 "NMo-om-nkz.title" = "服务";
@@ -71,11 +140,17 @@
 /* Class = "NSTextFieldCell"; title = "Bundle ID"; ObjectID = "O5w-tJ-UEv"; */
 "O5w-tJ-UEv.title" = "Bundle ID";
 
+/* Class = "NSTextFieldCell"; placeholderString = "The description  of the app"; ObjectID = "OAw-Kd-qGD"; */
+"OAw-Kd-qGD.placeholderString" = "The description  of the app";
+
 /* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
 "OY7-WF-poV.title" = "最小化";
 
 /* Class = "NSMenuItem"; title = "Hide SmartOTA"; ObjectID = "Olw-nP-bQN"; */
 "Olw-nP-bQN.title" = "隐藏 SmartOTA";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The image for itunes display"; ObjectID = "PFU-1P-FMz"; */
+"PFU-1P-FMz.placeholderString" = "The image for itunes display";
 
 /* Class = "NSTextField"; ibShadowedToolTip = "app bundle identifier"; ObjectID = "PH0-FM-W9W"; */
 "PH0-FM-W9W.ibShadowedToolTip" = "app bundle identifier";
@@ -86,11 +161,17 @@
 /* Class = "NSWindow"; title = "SmartOTA"; ObjectID = "QvC-M9-y7g"; */
 "QvC-M9-y7g.title" = "SmartOTA";
 
+/* Class = "NSTextFieldCell"; placeholderString = "The plist file for in-hourse distrubuton"; ObjectID = "Qwd-r5-EUm"; */
+"Qwd-r5-EUm.placeholderString" = "The plist file for in-hourse distrubuton";
+
 /* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
 "R4o-n2-Eq4.title" = "缩放";
 
 /* Class = "NSButtonCell"; title = " \nfull-size-image \n512*512\n"; ObjectID = "RyC-kr-YNR"; */
 "RyC-kr-YNR.title" = " \nfull-size-image \n512*512\n";
+
+/* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "SPN-cS-fHx"; */
+"SPN-cS-fHx.title" = "转换";
 
 /* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
 "Td7-aD-5lo.title" = "窗口";
@@ -99,10 +180,25 @@
 "UWY-Xs-mLF.title" = "full-size-image";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
-"Vdr-fp-XzO.title" = "隐藏其他 Others";
+"Vdr-fp-XzO.title" = "隐藏其他";
 
 /* Class = "NSBox"; title = "MetaData"; ObjectID = "Vyj-5p-oiq"; */
 "Vyj-5p-oiq.title" = "MetaData";
+
+/* Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "XTY-ew-CPR"; */
+"XTY-ew-CPR.title" = "拼写与语法";
+
+/* Class = "NSMenuItem"; title = "Data Detectors"; ObjectID = "XmS-nu-gGi"; */
+"XmS-nu-gGi.title" = "数据探测";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "Yea-RF-oC4"; */
+"Yea-RF-oC4.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "ZJk-xA-7P3"; */
+"ZJk-xA-7P3.title" = "选择所有";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "ZQw-vb-qUH"; */
+"ZQw-vb-qUH.title" = "查找选中文本";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Generate plist and html for OTA"; ObjectID = "ZVk-zm-5CO"; */
 "ZVk-zm-5CO.ibShadowedToolTip" = "Generate plist and html for OTA";
@@ -116,11 +212,26 @@
 /* Class = "NSTextFieldCell"; title = "Kind"; ObjectID = "aaJ-Pw-k9s"; */
 "aaJ-Pw-k9s.title" = "Kind";
 
+/* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "b63-nr-Kvu"; */
+"b63-nr-Kvu.title" = "文本替换";
+
 /* Class = "NSTextFieldCell"; title = "H5 URL"; ObjectID = "b6a-c6-8Hq"; */
 "b6a-c6-8Hq.title" = "H5 URL";
 
+/* Class = "NSTextFieldCell"; placeholderString = "The single web page for in-hourse distrubuton"; ObjectID = "bVj-E7-bTg"; */
+"bVj-E7-bTg.placeholderString" = "The single web page for in-hourse distrubuton";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "bi5-gb-bJo"; */
+"bi5-gb-bJo.title" = "粘贴并匹配样式";
+
+/* Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "d3g-sY-OC5"; */
+"d3g-sY-OC5.title" = "Check Spelling While Typing";
+
 /* Class = "NSButtonCell"; title = "Preview"; ObjectID = "eoI-B4-lff"; */
 "eoI-B4-lff.title" = "Preview";
+
+/* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "eva-iz-qzS"; */
+"eva-iz-qzS.title" = "替换";
 
 /* Class = "NSTextFieldCell"; title = "*"; ObjectID = "ftJ-RF-YZ5"; */
 "ftJ-RF-YZ5.title" = "*";
@@ -128,17 +239,44 @@
 /* Class = "NSBox"; title = "Server Info"; ObjectID = "gB8-QK-Xc6"; */
 "gB8-QK-Xc6.title" = "Server Info";
 
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "goZ-7S-MlF"; */
+"goZ-7S-MlF.title" = "剪切";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "gwY-p9-8gr"; */
+"gwY-p9-8gr.title" = "编辑";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "hGL-L3-x6w"; */
+"hGL-L3-x6w.title" = "查找";
+
 /* Class = "NSButtonCell"; title = "Make"; ObjectID = "ho4-8X-tat"; */
-"ho4-8X-tat.title" = "生成";
+"ho4-8X-tat.title" = "Make";
 
 /* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
-"hz9-B4-Xy5.title" = "Services";
+"hz9-B4-Xy5.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "iVo-2I-Izh"; */
+"iVo-2I-Izh.title" = "智能引号";
+
+/* Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "iwI-zN-RFd"; */
+"iwI-zN-RFd.title" = "查找并替换…";
+
+/* Class = "NSTextFieldCell"; placeholderString = "the app distrubution server"; ObjectID = "ixQ-1x-eV5"; */
+"ixQ-1x-eV5.placeholderString" = "the app distrubution server";
 
 /* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "jaJ-Po-O9W"; */
 "jaJ-Po-O9W.title" = "Description";
 
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "kpE-Ah-8qi"; */
+"kpE-Ah-8qi.title" = "跳到选择";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The Bundle ID  of the app"; ObjectID = "kxW-GG-ubr"; */
+"kxW-GG-ubr.placeholderString" = "The Bundle ID  of the app";
+
 /* Class = "NSTextFieldCell"; title = "*"; ObjectID = "mXp-qL-UYP"; */
 "mXp-qL-UYP.title" = "*";
+
+/* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "mbA-SA-JTX"; */
+"mbA-SA-JTX.title" = "智能破折号";
 
 /* Class = "NSTextFieldCell"; title = "Server"; ObjectID = "oD3-2u-ATH"; */
 "oD3-2u-ATH.title" = "Server";
@@ -152,8 +290,23 @@
 /* Class = "NSButtonCell"; title = "select ipa"; ObjectID = "qrE-g8-Pe3"; */
 "qrE-g8-Pe3.title" = "select ipa";
 
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "rBx-93-F3M"; */
+"rBx-93-F3M.title" = "复制";
+
+/* Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "rjf-rw-MoY"; */
+"rjf-rw-MoY.title" = "检查语法和拼写";
+
 /* Class = "NSTextFieldCell"; title = "software"; ObjectID = "s3U-Nq-6dO"; */
 "s3U-Nq-6dO.title" = "software";
+
+/* Class = "NSMenu"; title = "Transformations"; ObjectID = "sGG-I4-pkS"; */
+"sGG-I4-pkS.title" = "Transformations";
+
+/* Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "st2-Dk-1kT"; */
+"st2-Dk-1kT.title" = "变为大写";
+
+/* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "t9Y-L1-s4D"; */
+"t9Y-L1-s4D.title" = "首字母大写";
 
 /* Class = "NSTextField"; ibShadowedToolTip = "The name of the app displayed during download and installation"; ObjectID = "tVg-hH-LIL"; */
 "tVg-hH-LIL.ibShadowedToolTip" = "The name of the app displayed during download and installation";
@@ -164,9 +317,17 @@
 /* Class = "NSBox"; title = "Assets"; ObjectID = "vxt-h9-asB"; */
 "vxt-h9-asB.title" = "Assets";
 
+/* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "w6S-nc-noA"; */
+"w6S-nc-noA.title" = "智能链接";
+
 /* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
-"wpr-3q-Mcd.title" = "Help";
+"wpr-3q-Mcd.title" = "帮助";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "the distrubuton"; ObjectID = "x7Y-7x-KD2"; */
+"x7Y-7x-KD2.ibShadowedToolTip" = "the distrubuton";
+
+/* Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "xqW-k9-FoH"; */
+"xqW-k9-FoH.title" = "停止朗读";
 
 /* Class = "NSTextFieldCell"; title = "*"; ObjectID = "zh0-b2-gqF"; */
 "zh0-b2-gqF.title" = "*";
-

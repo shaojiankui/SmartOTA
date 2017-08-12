@@ -31,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A21B40681F3F25B800EE11E3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		A21B406A1F3F2AC900EE11E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		B82997951F3D5DF100065C35 /* NSString+JKHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKHTML.h"; sourceTree = "<group>"; };
 		B82997961F3D5DF100065C35 /* NSString+JKHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKHTML.m"; sourceTree = "<group>"; };
 		B82997981F3D5E0B00065C35 /* NSData+JKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKBase64.h"; sourceTree = "<group>"; };
@@ -59,10 +61,8 @@
 		B8BA5C481F397DE0009D9084 /* DragableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableButton.m; sourceTree = "<group>"; };
 		B8BA5C4A1F398DE5009D9084 /* DragableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableTextField.h; sourceTree = "<group>"; };
 		B8BA5C4B1F398DE5009D9084 /* DragableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableTextField.m; sourceTree = "<group>"; };
-		B8BA5C4D1F399F3E009D9084 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
 		B8BA5C531F39A441009D9084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B8BA5C551F39A444009D9084 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		B8BA5C561F39A5F7009D9084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		B8BA5C571F39A610009D9084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B8BA5C581F39B2DC009D9084 /* Template.mime */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Template.mime; sourceTree = "<group>"; };
 		B8D227E41F37F4EE00422DD8 /* BRDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDrawer.h; sourceTree = "<group>"; };
@@ -229,8 +229,7 @@
 				TargetAttributes = {
 					B8815B0A1F3409E80020C9D7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = TB56TD97WJ;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -303,8 +302,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				B8815B171F3409E80020C9D7 /* Base */,
-				B8BA5C4D1F399F3E009D9084 /* zh-Hans */,
-				B8BA5C561F39A5F7009D9084 /* en */,
+				A21B40681F3F25B800EE11E3 /* zh-Hans */,
+				A21B406A1F3F2AC900EE11E3 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -416,7 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SmartOTA/SmartOTA.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SmartOTA/Info.plist;
@@ -434,7 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SmartOTA/SmartOTA.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SmartOTA/Info.plist;
